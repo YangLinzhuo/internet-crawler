@@ -1,4 +1,4 @@
-#python3.4 爬虫教程
+#python3.5
 #一个简单的示例爬虫
 #bilibili (www.bilibili.com)
 import urllib.request
