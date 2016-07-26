@@ -1,9 +1,9 @@
-#python3.4 internet crawler
-#a simple example of internet crawler
-#bilibili (http://www.bilibili.com)
-import urllib
-url = 'http://www.bilibili.com'
-webPage = urllib.urlopen(url)
+#python3.4 爬虫教程
+#一个简单的示例爬虫
+#bilibili (www.bilibili.com)
+import urllib.request
+url = 'http://www.bilibili.com/'
+webPage = urllib.request.urlopen(url)
 data = webPage.read()
 data = data.decode('UTF-8')
 print(data)
